@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "admin_001",
+      "name": "Admin User",
+      "email": "admin@analytics.com",
+      "role": "admin",
+      "avatar": "https://i.pravatar.cc/150?u=admin",
+      "status": "active"
+    },
+    {
+      "id": "aff_001",
+      "name": "Sarah Jenkins",
+      "email": "sarah@techblog.com",
+      "role": "affiliate",
+      "avatar": "https://i.pravatar.cc/150?u=sarah",
+      "status": "active",
+      "earnings": 12500.50
+    },
+    {
+      "id": "aff_002",
+      "name": "Mike Ross",
+      "email": "mike@marketing.com",
+      "role": "affiliate",
+      "avatar": "https://i.pravatar.cc/150?u=mike",
+      "status": "pending",
+      "earnings": 0
+    }
+  ],
+  "stats": {
+    "totalRevenue": 154230.00,
+    "activeAffiliates": 124,
+    "totalClicks": 45230,
+    "conversionRate": 3.8,
+    "revenueGrowth": 12.5,
+    "clicksGrowth": 8.2
+  },
+  "chartData": {
+    "revenue": [
+      { "name": "Jan", "value": 12000 },
+      { "name": "Feb", "value": 19000 },
+      { "name": "Mar", "value": 15000 },
+      { "name": "Apr", "value": 22000 },
+      { "name": "May", "value": 28000 },
+      { "name": "Jun", "value": 25000 },
+      { "name": "Jul", "value": 32000 }
+    ],
+    "funnel": [
+      { "name": "Impressions", "value": 100000, "fill": "#10b981" },
+      { "name": "Clicks", "value": 45000, "fill": "#34d399" },
+      { "name": "Signups", "value": 12000, "fill": "#6ee7b7" },
+      { "name": "Purchases", "value": 3500, "fill": "#a7f3d0" }
+    ]
+  },
+  "affiliates": [
+    {
+      "id": "aff_001",
+      "name": "Sarah Jenkins",
+      "email": "sarah@techblog.com",
+      "status": "Active",
+      "revenue": 12500.50,
+      "clicks": 4500,
+      "joinDate": "2023-01-15",
+      "conversionRate": 4.2
+    },
+    {
+      "id": "aff_002",
+      "name": "Mike Ross",
+      "email": "mike@marketing.com",
+      "status": "Pending",
+      "revenue": 0,
+      "clicks": 120,
+      "joinDate": "2023-06-20",
+      "conversionRate": 0
+    },
+    {
+      "id": "aff_003",
+      "name": "David Chen",
+      "email": "david@reviews.net",
+      "status": "Active",
+      "revenue": 8500.00,
+      "clicks": 3200,
+      "joinDate": "2023-03-10",
+      "conversionRate": 3.5
+    },
+    {
+      "id": "aff_004",
+      "name": "Emma Wilson",
+      "email": "emma@lifestyle.com",
+      "status": "Inactive",
+      "revenue": 1200.00,
+      "clicks": 800,
+      "joinDate": "2023-02-01",
+      "conversionRate": 1.8
+    },
+    {
+      "id": "aff_005",
+      "name": "James Bond",
+      "email": "007@secret.com",
+      "status": "Active",
+      "revenue": 50000.00,
+      "clicks": 15000,
+      "joinDate": "2023-01-01",
+      "conversionRate": 5.5
+    }
+  ]
+}
